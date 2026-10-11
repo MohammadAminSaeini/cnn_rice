@@ -1,0 +1,34 @@
+# Duplicate notebooks
+cnn_rice copy.ipynb
+*copy.ipynb
+
+# Dataset (75,000 images, ~330 MB) — download from https://www.muratkoklu.com/datasets/
+src/Rice_Image_Dataset/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Saved models and training outputs
+*.keras
+*.h5
+*.weights.h5
+logs/
+checkpoints/
+
+# Environment variables
+.env
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
